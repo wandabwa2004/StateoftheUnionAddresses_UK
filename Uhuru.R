@@ -105,13 +105,6 @@ findAssocs(dtm, "kenyans", corlimit = 0.85) #Words associated with "youth" with 
 #redPalette <- c("#5c1010", "#6f0000", "#560d0d", "#c30101", "#940000")
 #redPalette
 
-#Download images for plotting
-#url = "https://raw.githubusercontent.com/lgellis/MiscTutorial/master/twitter_wordcloud/handmaiden.jpeg"
-#handmaiden <- "handmaiden.jpg"
-#download.file(url, handmaiden) # download file
-#url = "C:\\Users\\wanda\\OneDrive - AUT University\\Personal\\Dexibit_2\\UhuruSpeeches\\data\\flag_kenya.jpg"
-#kenya <- "C:\\Users\\wanda\\OneDrive - AUT University\\Personal\\Dexibit_2\\UhuruSpeeches\\data\\flag_kenya.jpg"
-#download.file(kenya) # download file
 
 #plots
 #wordcloud2(hmtTable, size=1.6, figPath = handmaiden, color=rep_len( redPalette, nrow(hmtTable) ) )
